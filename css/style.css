@@ -1,0 +1,404 @@
+/* Navbar section */
+.navbar-brand {
+    margin-left: 10em;
+}
+
+.navbar-brand #logo {
+    height : 50px;
+    width : 100px;
+}
+
+#search_button {
+    margin-right : 10em;
+}
+
+li a span {
+    color : black;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.nav-item > .nav-link.active  {
+    color : #007bff;
+    border-top : 3px solid #007bff;
+    border-radius: 2px;
+    transition: all 200ms;
+}
+
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+/* First section */
+.slide_text {
+    margin-bottom : 7em
+}
+.slide_text h1 {
+    font-size: 4rem;
+    margin-bottom : 1em;
+}
+
+.slide_text p {
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+}
+.slide_text button {
+    font-size: 1em;
+}
+
+/* Second section */
+#section_two i{
+    font-size: 40px;
+    color : dodgerblue;
+}
+
+#section_two h3{
+    font-size: 30px;
+    color : dodgerblue;
+}
+#section_two p {
+    color : black;
+}
+
+
+/* Section three */
+#section_three {
+    background:#F8F8F8 ;
+}
+
+#section_three i{
+    font-size: 40px;
+    color : dodgerblue;
+}
+
+#section_three h6{
+    color : dodgerblue;
+}
+
+#section_three .col-7 {
+    background: white;
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+/* Section four */
+#section_four .underline {
+    width : 40px;
+    border-top : 3px solid dodgerblue;
+}
+#section_four h2 {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#section_four i {
+    font-size: 50px;
+    color : dodgerblue;
+}
+#section_four h5 {
+    color : dodgerblue;
+}
+
+/* Section four */
+#section_five {
+    background:#F8F8F8 ;
+}
+
+#section_five .underline {
+    width : 40px;
+    border-top : 3px solid dodgerblue;
+}
+
+#section_five h2 {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#section_five button {
+    background: 	#E8E8E8;
+    margin-left : 8px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#section_five button:hover {
+    background: dodgerblue;
+    margin-left : 5px;
+}
+
+#section_five .btn.active  {
+    background : dodgerblue;
+}
+
+#section_five img {
+    height : 90%;
+    width : 100%;
+}
+
+/* Section six */
+#section_six {
+    background:#F8F8F8 ;
+}
+
+/* Section seven*/
+#section_seven i {
+    font-size: 50px;
+    color : dodgerblue;
+}
+
+#section_seven #shiva {
+    color : black;
+}
+#section_seven .count {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#section_seven .count-text {
+    color : grey;
+}
+
+
+/* Section eight */
+#section_eight {
+    background:#F8F8F8 ;
+}
+
+#section_eight .underline {
+    width : 40px;
+    border-top : 3px solid dodgerblue;
+}
+
+#section_eight h2 {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#section_eight img {
+    height : 100%;
+    width : 100%;
+}
+#section_eight h5 {
+    color : dodgerblue;
+    font-weight: bold;
+}
+
+#section_eight .col {
+    padding : 0;
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#section_eight h6 {
+    color : grey;
+}
+#section_eight i {
+    color : gray;
+}
+
+#section_eight i:hover {
+    color : dodgerblue;
+}
+
+/* Section nine */
+#demo .carousel-indicators li {
+    border-radius: 40%;
+    width: 12px;
+    height: 12px;
+}
+
+#demo .slider_background {
+    height : 400px;
+    width : 100%;
+    background: dodgerblue;
+}
+
+#demo img {
+    border-radius: 50%;
+    height : 100px;
+    width : 100px;
+}
+
+#demo h5 {
+    color: 	gainsboro;
+}
+
+/* Section ten */
+#section_ten {
+    background:#F8F8F8 ;
+}
+#section_ten .col {
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height : 170px;
+}
+#section_ten img {
+    height : 100%;
+    width : 100%;
+}
+
+#section_ten .col:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/* Section eleven */
+#section_eleven .underline {
+    width : 40px;
+    border-top : 3px solid dodgerblue;
+}
+
+#section_eleven h2 {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#section_eleven img {
+    height : 100%;
+    width : 100%;
+}
+#section_eleven h5 {
+    color : dodgerblue;
+    font-weight: bold;
+}
+
+#section_eleven .main_section {
+    padding : 0;
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#section_eleven .text_section {
+    border-bottom : 2px solid lightgray;
+}
+
+#section_eleven .comment_section {
+    margin : 0;
+    cursor: context-menu;
+}
+
+#section_eleven .col-8 {
+    color : dodgerblue;
+}
+
+#section_eleven .col-4 i {
+    font-size: 35px;
+    color : dodgerblue;
+}
+
+/* Section thirteen */
+#section_thirteen {
+    background:#F8F8F8 ;
+}
+
+#section_thirteen .underline {
+    width : 40px;
+    border-top : 3px solid dodgerblue;
+}
+
+#section_thirteen i {
+    color : white;
+}
+#section_thirteen .selector {
+    height : 40px;
+    width : 40px;
+    background: dodgerblue;
+    font-size: 150%;
+    border-radius: 10%;
+}
+
+#section_thirteen input:focus {
+    outline: none;
+}
+#section_thirteen .div {
+    border : 0px;
+}
+#section_thirteen .text {
+    border: none;
+    background: #F8F8F8;
+    width : 100%;
+    margin-bottom : 30px;
+    border-bottom : 1px solid lightgray;
+}
+
+/* footer section */
+#footer_section {
+    color : white;
+    background : #383838;
+}
+
+#footer_section a{
+    color : white;
+}
+#footer_section .underline {
+    width : 40px;
+    border-top : 3px solid dodgerblue;
+}
+
+#footer_section .icon_section {
+    height : 35px;
+    width : 35px;
+    background: #202020;
+}
+
+#footer_section .icon_section:hover {
+    background: black;
+}
+
+#footer_section .gal {
+    height : 70px;
+    width : 70px;
+}
+
+#footer_section img {
+    height : 100%;
+    width : 100%;
+}
+
+/* Author section */
+#author_section {
+    color : white;
+    background : black;
+}
+
+div.fixed {
+    position: fixed;
+    background: dodgerblue;
+    cursor: context-menu;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height : 50px;
+    font-size: 30px;
+}
+
